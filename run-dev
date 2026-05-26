@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+_CNCHI_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+export PYTHONPATH="${_CNCHI_DIR}/src"
+export CNCHI_DEV_MODE=1
+export CNCHI_SKIP_PRIVILEGE=1
+
+python "${_CNCHI_DIR}/src/cnchi.py" "$@"

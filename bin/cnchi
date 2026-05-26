@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export PYTHONPATH="/usr/share/cnchi/src"
+
+exec /usr/bin/python3 /usr/share/cnchi/src/cnchi.py "$@"
