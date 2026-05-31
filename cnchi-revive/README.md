@@ -1,133 +1,148 @@
-# Cnchi ![GitHub release](https://img.shields.io/github/release/antergos/cnchi.svg)
+<h1 style="margin:-5px 0 -5px -22px;border:none;">
+Cnchi-Revive <span style="display:inline-flex;border-radius:7px;overflow:hidden;font-size:13px;font-weight:700;vertical-align:middle;"><span style="background:#003B85;color:white;padding:4px 9px;">dev</span><span style="background:#0176D8;color:white;padding:4px 9px;">26.0.7</span></span>
+</h1>
 
-**Graphical Installer for Antergos Linux**
+<div style="margin-left:-20px;">Graphical Installer for Arch Linux</div>
 
-![Read the docs](https://readthedocs.org/projects/cnchi/badge/?version=latest) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/141e37590a9e4a2da3b3d84c0a6241ac)](https://www.codacy.com/project/karasu/Cnchi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Antergos/Cnchi&amp;utm_campaign=Badge_Grade_Dashboard) ![License](https://img.shields.io/github/license/antergos/cnchi.svg) ![GitHub issues](https://img.shields.io/github/issues/antergos/cnchi.svg) ![Github commits](https://img.shields.io/github/commits-since/antergos/cnchi/latest.svg) ![Release date](https://img.shields.io/github/release-date/SubtitleEdit/subtitleedit.svg) [![Gitter](https://badges.gitter.im/Antergos/Cnchi.svg)](https://gitter.im/Antergos/Cnchi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+<div style="margin-left:-22px;margin-top:10px;">
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:4px 8px;">version</span><span style="background:#0176D8;color:white;padding:4px 8px;">26.0.7</span></span>
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:4px 8px;">branch</span><span style="background:#0176D8;color:white;padding:4px 8px;">main</span></span>
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:4px 8px;">issues</span><span style="background:#0176D8;color:white;padding:4px 8px;">open</span></span>
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:4px 8px;">commits since 26.0.7</span><span style="background:#0176D8;color:white;padding:4px 8px;">0</span></span>
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:4px 8px;">release date</span><span style="background:#0176D8;color:white;padding:4px 8px;">July 1, 2026</span></span>
+</div>
 
-You are viewing the `0.16.x` branch (stable).
+<div style="margin-left:-22px;margin-top:8px;">
+<span style="display:inline-flex;border-radius:6px;overflow:hidden;font-size:13px;margin-right:8px;"><span style="background:#003B85;color:white;padding:3px 7px;">gitlab</span><span style="background:#0176D8;color:white;padding:4px 8px;">packages/cnchi-revive</span></span>
+</div>
 
-## Current Status
+<br>
 
-|Development Stage|Branch|Version| Code Status|
------------------ | -------------- | -------------- | -------- |
-|Cnchi Stable|0.16.x|![0.16.12](https://img.shields.io/github/release/antergos/cnchi.svg)|Frozen|
-|Cnchi Development|0.17.x|![0.17.1](https://img.shields.io/github/release/antergos/cnchi/all.svg)|Development|
-|Cnchi Next (UI agnostic)|master|master|Development|
+<div style="margin-left:-22px;margin-top:-20px;">
+You are viewing the <span style="background:#0176D8;color:white;border-radius:6px;padding:2px 4px;font-family:monospace;">26.0.7</span> release <span style="color:#0176D8;">(dev)</span>.
+</div>
 
-## Usage:
+<div style="margin-left:-25px;;width:105%;margin-top:-10px;">
+  <div style="height:1px;background:rgba(255,255,255,0.08);margin:22px 0;"></div>
+</div>
 
-```sh
-sudo -E cnchi.py
-```
+<div style="display:flex;align-items:center;gap:18px;margin-top:-15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/Current Status.png" width="34" style="margin-top:12px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:8px;">Current Status</span>
+</div>
 
-#### Optional parameters:
+<div style="position:relative;width:108%;margin-left:-4%;margin-top:8px;">
 
-|Command|Description|
------------------ | -------------- |
-|```-a``` , ```--a11y```|*Set accessibility feature on by default*|
-|```-c``` , ```--cache```|*Use pre-downloaded xz packages when possible*|
-|```-d``` , ```--debug```|*Sets Cnchi log level to 'debug'*|
-|```-e``` , ```--environment```|*Sets the Desktop Environment that will be installed, see [desktop_info.py](cnchi/desktop_info.py) for options*|
-|```-f``` , ```--force```|*Runs cnchi even if it detects that another instance is running*|
-|```-n``` , ```--no-check```|*Makes checks optional in check screen*|
-|```-p``` , ```--packagelist```|*Install the packages referenced by a local xml instead of the defaults, see [#617](https://github.com/Antergos/Cnchi/issues/617) for proper usage*|
-|```-t``` , ```--no-tryit```|*Disables first screen's 'try it' option*|
-|```-v``` , ```--verbose```|*Show logging messages to stdout*|
-|```-V``` , ```--version```|*Show Cnchi version and quit*|
-|```-z``` , ```--hidden```|*Show options in development (for developers only, do not use this!)*|
+<img src="README-Icons/lines.png" width="100%" style="height:88px;">
 
+  <span style="position:absolute;left:4%;top:14px;width:24%;text-align:center;color:#0176D8;font-weight:600;">Development Stage</span>
+  <span style="position:absolute;left:29%;top:14px;width:22%;text-align:center;color:#0176D8;font-weight:600;">Branch</span>
+  <span style="position:absolute;left:51%;top:14px;width:22%;text-align:center;color:#0176D8;font-weight:600;">Version</span>
+  <span style="position:absolute;left:74%;top:14px;width:22%;text-align:center;color:#0176D8;font-weight:600;">Code Status</span>
+
+  <span style="position:absolute;left:4%;top:50px;width:24%;text-align:center;">Cnchi-Revive</span>
+  <span style="position:absolute;left:29%;top:50px;width:22%;text-align:center;">main</span>
+  <span style="position:absolute;left:51%;top:52px;width:22%;text-align:center;">
+    <span style="background:#0176D8;color:white;border-radius:4px;padding:1px 5px;font-family:monospace;font-size:0.92em;">26.0.7</span>
+  </span>
+  <span style="position:absolute;left:74%;top:50px;width:22%;text-align:center;">Development</span>
+</div>
+
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:10px;margin-top:-12px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/Building1.png" width="36" style="margin-top:1px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-2px;">Building</span>
+</div>
+
+<pre style="width:108%;margin-left:-30px;background:linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.045) 45%, rgba(255,255,255,0.025) 100%), #09101d;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:8px 14px;"><code>cd cnchi-revive && makepkg -si</code></pre>
+
+<div style="display:flex;align-items:center;gap:10px;margin-top:15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/usage.png" width="32" style="margin-top:-5px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-2px;">Usage</span>
+</div>
+
+<pre style="width:108%;margin-left:-30px;background:linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.045) 45%, rgba(255,255,255,0.025) 100%), #09101d;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:8px 14px;"><code>sudo -E cnchi.py</code></pre>
+
+<div style="display:flex;align-items:center;gap:10px;margin-top:15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/parameters.png" width="34" style="margin-top:-15px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-6px;">Optional parameters</span>
+</div>
+
+<div style="width:108%;margin-left:-30px;border:1px solid rgba(255,255,255,0.08);border-radius:10px;overflow:hidden;">
+
+<div style="display:flex;">
+  <div style="width:25%;padding:6px 12px;color:#0176D8;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);font-weight:600;">Command</div>
+  <div style="width:75%;padding:6px 12px;color:#0176D8;border-bottom:1px solid rgba(255,255,255,0.06);font-weight:600;">Description</div>
+</div>
+
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-a</code>, <code>--a11y</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Set accessibility feature on by default</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-c</code>, <code>--cache</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Use pre-downloaded xz packages when possible</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-d</code>, <code>--debug</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Sets Cnchi log level to 'debug'</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-e</code>, <code>--environment</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Sets the Desktop Environment that will be installed, see <span style="color:#0176D8">desktop_info.py</span> for options</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-f</code>, <code>--force</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Runs cnchi even if it detects that another instance is running</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-n</code>, <code>--no-check</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Makes checks optional in check screen</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-p</code>, <code>--packagelist</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Install packages referenced by a local XML package list instead of defaults</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-t</code>, <code>--no-tryit</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Disables first screen's 'try it' option</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-v</code>, <code>--verbose</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Show logging messages to stdout</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06);"><code>-V</code>, <code>--version</code></div><div style="width:75%;padding:4px 12px;border-bottom:1px solid rgba(255,255,255,0.06);">Show Cnchi version and quit</div></div>
+<div style="display:flex;"><div style="width:25%;padding:4px 12px;border-right:1px solid rgba(255,255,255,0.06);"><code>-z</code>, <code>--hidden</code></div><div style="width:75%;padding:4px 12px;">Show options in development</div></div>
+
+</div>
+
+<div style="margin-top:12px;">
 To create logs to help debug problems:
-```sh
-sudo -E cnchi.py -dv
-```
+</div>
 
-## Reporting bugs:
 
-Please report any issues with Cnchi in the issue tracker. Provide all log files along with a detailed description:
 
-* /var/log/cnchi/cnchi.log
-* /var/log/cnchi/cnchi-alpm.log (if it exists)
-* /var/log/cnchi/postinstall.log (if it exists)
-* /var/log/cnchi/pacman.log (if it exists)
+<pre style="width:108%;margin-left:-30px;background:linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.045) 45%, rgba(255,255,255,0.025) 100%), #09101d;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:8px 14px;"><code>sudo -E cnchi.py -dv</code></pre>
 
-## Translations
 
-We manage our translations via [Transifex](https://www.transifex.com/projects/p/antergos)
 
-<a name="dependencies">Dependencies</a>
+</div>
 
- - gtk3
- - python (python3)
- - python-cairo
- - python-chardet
- - python-dbus
- - python-feedparser
- - python-gobject
- - python-idna
- - python-mako
- - python-requests
- - geoip (python-geoip2, python-maxminddb, geoip2-database)
- - pyparted (parted, dosfstools, mtools, ntfs-3g, ntfsprogs)
- - pyalpm (alpm)
- - upower
- - gocryptfs
- - iso-codes
- - clutter, clutter-gtk, clutter-gst
- - gsteamer1.0
- - python-libnacl
 
-## Unit tests
- - python-mock
+<div style="display:flex;align-items:center;gap:10px;margin-top:15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/dependencies.png" width="34" style="margin-top:-15px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-6px;">Dependencies</span>
+</div>
 
-## Fonts needed by the keyboard widget
- - ttf-aboriginal-sans
- - ttf-indic-otf
- - ttf-khmer
- - ttf-lohit-fonts
- - ttf-myanmar3
- - ttf-thaana-fonts
- - ttf-tlwg
+<span style="color:#0176D8;">●</span> python  
+<span style="color:#0176D8;">●</span> python-gobject  
+<span style="color:#0176D8;">●</span> gtk3  
+<span style="color:#0176D8;">●</span> python-requests  
+<span style="color:#0176D8;">●</span> python-mako  
+<span style="color:#0176D8;">●</span> python-parted  
+<span style="color:#0176D8;">●</span> pyalpm  
+<span style="color:#0176D8;">●</span> upower  
+<span style="color:#0176D8;">●</span> gptfdisk  
+<span style="color:#0176D8;">●</span> parted  
+<span style="color:#0176D8;">●</span> webkit2gtk  
 
-## Building Cnchi
+<div style="display:flex;align-items:center;gap:10px;margin-top:15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/package.png" width="34" style="margin-top:-15px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-6px;">Building Cnchi-Revive</span>
+</div>
 
-[PKGBUILD](https://raw.githubusercontent.com/Antergos/antergos-packages/master/antergos/cnchi-dev/PKGBUILD)
 
-## Development
+<pre style="width:108%;margin-left:-30px;background:linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.045) 45%, rgba(255,255,255,0.025) 100%), #09101d;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:8px 14px;"><code>PKGBUILD: <a href="https://gitlab.com/antergos-revive/packages/-/blob/main/cnchi-revive/PKGBUILD?ref_type=heads" style="color:#0176D8;text-decoration:none;">packages/cnchi-revive/PKGBUILD</a></code></pre>
 
-### Getting started
 
-You will need to install all [dependencies](#dependencies).
+<div style="display:flex;align-items:center;gap:10px;margin-top:15px;margin-bottom:0px;margin-left:-25px;">
+  <img src="README-Icons/repository.png" width="30" style="margin-top:-15px;">
+  <span style="font-size:1.4em;font-weight:700;position:relative;top:-6px;">Repository</span>
+</div>
 
-- Fork Cnchi
-- Do your changes (use 0.16.x branch as base!)
+<div style="margin-left:-25px;margin-top:-8px;">
+Part of the Antergos Revive project.
+</div>
 
-Then, you can use the run script to test Cnchi. As this is a Installer, you will need to use a [Virtual Machine](http://virtualbox.org) or an additional harddisk to test it.
+<div style="margin-left:-25px;">
+Hosted on GitLab: <a href="https://gitlab.com/antergos-revive/packages/-/tree/main?ref_type=heads" style="color:#0176D8;text-decoration:none;">antergos-revive/packages/cnchi-revive</a>
+</div>
 
-How to easy prepare a sane testing environment:
-1. Download Antergos ISO
-2. Create a new VM in Virtualbox, add the live iso and a virtual harddisk (two harddisks if you want to cache the downloaded packages)
-3. Run the VM
-4. Cnchi will open, close it.
-5. Remove Cnchi ISO version: `sudo rm -rf /usr/share/cnchi`
-6. Install git: `sudo pacman -S git`
-7. Install - Install your Cnchi version from your own repository:
-```
-cd /home/antergos
-git clone https://github.com/<username>/cnchi
-cd cnchi
-sudo ln -s /home/antergos/cnchi /usr/share/cnchi
-```
-8. Create a screenshot of the VM (so you don't have to redo all this each time you want to test your changes).
-9. Run Cnchi and start testing!
-
-If your tests are OK, you can then create your PR and push it here (against development branch, which now it's 0.16.x)
-
-### Development Tips
-
-When creating a Pull Request (PR), please check that you follow the [PEP8](https://www.python.org/dev/peps/pep-0008/) style guide (you have a stylized presentation at [pep8.org](http://pep8.org)). You can use [pycodestyle](https://github.com/pycqa/pycodestyle) (former pep8) or [pylint.org](https://www.pylint.org) or whatever you prefer to check your python3 files.
-
-#### Spaces are the preferred indentation method.
-
-### Documented classes
-
-To start tinkering, we would recommend to check all open [#issues](https://github.com/Antergos/Cnchi/issues) and find one you find you will be able to start with (choose something that seems easy to do), so you feel familiar with cnchi's structure. You can find info about it at [readthedocs](https://cnchi.readthedocs.io/en/latest/)
+<div style="margin-left:-25px;">
+Issues and contributions are welcome!
+</div>
