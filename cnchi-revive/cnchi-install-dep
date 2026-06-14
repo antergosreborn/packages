@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+pacman -Sy --needed --noconfirm \
+  git base-devel python gtk3 python-gobject webkit2gtk \
+  python-requests python-mako python-parted python-pyalpm \
+  python-feedparser parted upower gptfdisk
+
+echo
+echo "Cnchi VM dependencies installed."
